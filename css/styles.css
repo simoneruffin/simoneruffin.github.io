@@ -1,56 +1,64 @@
-*				{ font-family:helvetica;
-				  font-size: 20px;
-				  text-align: center;
-				}
-					
+* {
+	font-family:helvetica;
+	font-size: 20px;
+	text-align: center;
+}
 
-body			{ background-image:url("file:///C:/Users/slruffin1s/Desktop/images/tom-barrett-318952.jpg");
-				  background-size: cover;
-				  background-repeat: no-repeat;
-				}
-table, th, td 	{ border :1px solid black }
+body {
+	background-image:url("../images/background2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-a, a:hover, a:visited, a:active		{ color:black;
-									  text-decoration: none;
-									  padding: 10px 14px;
-									}
-									
-a:hover { margin-top: 2%;
-color: green;
-animation-name: linkhover;
-animation-duration: 5s;
-animation-iteration-count: infinite;
-        }
+table, th, td {
+	border :1px solid black
+}
 
-		
-@keyframes linkhover{
+a, a:hover, a:visited, a:active	{
+	color:black;
+	text-decoration: none;
+	padding: 10px 14px;
+}
+
+a:hover {
+	margin-top: 2%;
+	color: green;
+	animation-name: linkhover;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
 	
+@keyframes linkhover {	
 	0% {margin-top:2%;}
-	2% {margin-top:1%;}
+	25% {margin-top:1%;}
 	50% {margin-top:0%;}
 	75% {margin-top:1%;}
 	100% {margin-top:2%;}
 }
-nav{
+
+nav {
 	background-color:yellow;
 	width:100%;
 }
 
-#profilediv img{ float: left; 
-				 /*clear:both;*/
-				 /*margin-left: 10%;
-				 margin-top = 10%;*/
-				 margin: 5%;}
-				 
-#profilep { background-color: white;
-			border: 1px solid white;
-			border-radius: 1px;
-			padding: 20px;
-          }
-		  
-		  
-#parallax  { background-image: url("file:///C:/Users/slruffin1s/Desktop/images/karsten-wurth-inf1783-126084.jpg");
-			 background-size: cover;
-			 background-attachment: fixed;
-			 min-height: 200px;
+#profilediv img {
+	float: left; 
+	/*clear:both;*/
+	/*margin-left: 10%;
+	margin-top = 10%;*/
+	margin: 5%;
+}
+
+#profilep {
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 1px;
+	padding: 20px;
+}
+
+#parallax {
+	background-image: url("../images/background1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 200px;
 }
